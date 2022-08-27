@@ -1,0 +1,10 @@
+{
+    "template": {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [],
+        "gradientTransform": []
+    }
+}

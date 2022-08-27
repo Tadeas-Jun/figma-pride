@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    overflow: hidden;
+}
+
+#scrollbar {
+    background-color: #ffffff;
+}
+
+#topBar {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #eeeeee;
+}
+
+#topBar h2,
+p {
+    margin: 0;
+}
+
+#topBar p {
+    font-size: 15px;
+}
+
+#topBar:hover .item-overlay.right {
+    right: 0;
+    left: 0;
+}
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #1f1f1f;
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+    -webkit-transition: left 0.5s;
+    transition: left 0.5s;
+}
+
+.item-overlay.right {
+    right: 200%;
+    left: -100%;
+}
+
+#promoText {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.gradientButton {
+    border: 1px solid #2d2c2c;
+    background-color: #f5f5f5;
+    border-radius: 2%;
+    margin: 25px auto;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.gradientButton:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #0000004d;
+    transform: translateY(-0.25em);
+}
+
+.gradientButton:hover .gradientName {
+    transform: translateY(30px);
+}
+
+.gradientName {
+    width: inherit;
+    position: absolute;
+    bottom: -16px;
+    font-size: 16px;
+    background-color: #ffffffe6;
+    padding: 5px 0 20px 0;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#alert {
+
+    padding: 10px;
+    font-size: 13px;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+
+}

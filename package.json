@@ -1,0 +1,46 @@
+{
+	"name": "figma-pride",
+	"version": "2.0.0",
+	"description": "A Figma plugin for inserting Pride flags and gradients into your designs.",
+	"scripts": {
+		"build": "webpack --mode=production",
+		"build:watch": "webpack --mode=development --watch",
+		"prettier:format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,json}' "
+	},
+	"dependencies": {
+		"bootstrap": "^5.0.2",
+		"react": "^17.0.2",
+		"react-bootstrap": "^2.0.0-beta.4",
+		"react-custom-scrollbars": "^4.2.1",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@figma/plugin-typings": "^1.24.0",
+		"@types/react": "^17.0.11",
+		"@types/react-dom": "^17.0.7",
+		"css-loader": "^5.0.1",
+		"html-webpack-inline-source-plugin": "^0.0.10",
+		"html-webpack-plugin": "^3.2.0",
+		"husky": "^4.3.8",
+		"json-loader": "^0.5.7",
+		"lint-staged": "^10.5.1",
+		"prettier": "^2.3.1",
+		"style-loader": "^2.0.0",
+		"ts-loader": "^8.0.11",
+		"typescript": "^4.1.2",
+		"url-loader": "^4.1.1",
+		"webpack": "^4.41.4",
+		"webpack-cli": "^4.7.2"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"src/**/*.{js,jsx,ts,tsx,css,json}": [
+			"prettier --write",
+			"git add"
+		]
+	}
+}
