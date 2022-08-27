@@ -35,6 +35,8 @@ For example, the bisexual flag's background is:
 ## How it works
 A section explaining some of the code of the plugin will be added soon.
 
+&nbsp;<br>
+
 ## Miscellaneous
 This project initially used the [figma-plugin-react-template](https://github.com/nirsky/figma-plugin-react-template) template by nirsky.
 
