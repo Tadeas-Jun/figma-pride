@@ -22,7 +22,7 @@ At the moment, the plugin contains these gradients:
 
 New flags and gradients can be added by editing the `src/app/assets/flags.json` file, expanding the `flags` array with a flag's ID, name (displayed in the plugin), and background. The background defines the flag/gradient. It's format is similar to a CSS linear-gradient:
 
-`[0-360]deg, #hexcode1 start% end%, #hexcode2 start% end%, #hexcode3 start% end%`
+`[0-360]deg, #hexcode1 start% end%, #hexcode2 start% end%, #hexcode3 start% end%, ...`
 
 &nbsp;<br>
 
